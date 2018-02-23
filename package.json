@@ -1,0 +1,29 @@
+{
+  "name": "bootstrap-migrate",
+  "version": "1.0.0",
+  "description": "Migrate Bootstrap from 3 to 4",
+  "main": "index.js",
+  "bin": {
+    "bootstrap-migrate": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "CSS",
+    "JS",
+    "Bootstrap",
+    "Framework",
+    "HTML",
+    "SCSS",
+    "SASS",
+    "CSS3"
+  ],
+  "author": "Gaurav Panchal",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "commander": "^2.14.1",
+    "replace": "^0.3.0"
+  }
+}
